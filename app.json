@@ -19,8 +19,24 @@
     "ios": {
       "supportsTablet": true
     },
+    "android": {
+      "package": "com.zubbey.reckon",
+      "versionCode": 1
+    },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "vue"
+      ]
+    },
+    "description": "reckon calculate more than a simple calculator would.",
+    "githubUrl": "https://github.com/zubbey"
   }
 }
